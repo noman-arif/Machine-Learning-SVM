@@ -26,8 +26,8 @@ st.title("SVM Prediction Application")
 st.write("Enter the required data for prediction:")
 
 # Load the saved model and scaler
-model_path = 'D:/UMT/Machine-Learning-SVM/F2021266586.pkl'
-scaler_path = 'D:/UMT/Machine-Learning-SVM/scaler.pkl'
+model_path = 'F2021266586.pkl'
+scaler_path = 'scaler.pkl'
 loaded_model = load_model(model_path)
 loaded_scaler = load_model(scaler_path)
 
