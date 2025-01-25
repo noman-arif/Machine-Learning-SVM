@@ -1,11 +1,6 @@
 streamlit
 scikit-learn
-sklearn
 numpy
 joblib
 pandas
-pickle
-pickle-mixin
 joblib
-seaborn
-matplotlib
