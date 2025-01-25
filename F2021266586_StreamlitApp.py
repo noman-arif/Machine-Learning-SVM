@@ -1,8 +1,7 @@
-import joblib
 import streamlit as st
 import numpy as np
 import os
-
+import joblib
 # Function to load the model
 def load_model(filepath):
     if not os.path.exists(filepath):
