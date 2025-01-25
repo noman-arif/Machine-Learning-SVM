@@ -1,4 +1,4 @@
-import joblib
+import pickle
 import streamlit as st
 import numpy as np
 import os
@@ -9,7 +9,8 @@ def load_model(filepath):
         st.error("Error: Model file not found. Please ensure the file exists at the specified path.")
         st.stop()
     try:
-        model = joblib.load(filepath)
+        with open(filepath, 'rb') as file:
+            model = pickle.load(file)
         st.success(f"Model '{os.path.basename(filepath)}' loaded successfully!")
         return model
     except Exception as e:
