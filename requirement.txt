@@ -5,3 +5,7 @@ numpy
 joblib
 pandas
 pickle
+pickle-mixin
+joblib
+seaborn
+matplotlib
